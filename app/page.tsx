@@ -777,22 +777,22 @@ export default function LandingPage() {
       </section>
 
       {/* Footer */}
-      <footer className="border-t border-zinc-100 bg-zinc-50 py-12">
-        <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-6 px-4 md:flex-row">
+      <footer className="border-t border-zinc-100 bg-zinc-50 py-8 md:py-12">
+        <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-6 px-4 sm:px-6 lg:px-8 md:flex-row">
           <div className="flex items-center gap-2">
             <div className="grid h-9 w-9 place-items-center rounded-xl bg-gradient-to-br from-emerald-600 to-emerald-500 text-white shadow-lg">
               <span className="text-sm font-bold">H</span>
             </div>
             <span className="text-base font-bold text-zinc-800">Habita</span>
           </div>
-          <nav className="flex items-center gap-8 text-sm text-zinc-600 font-medium">
+          <nav className="flex flex-wrap items-center justify-center gap-4 sm:gap-6 md:gap-8 text-sm text-zinc-600 font-medium">
             <a href="#recursos" className="transition-colors hover:text-emerald-600">Recursos</a>
             <a href="#cobranca" className="transition-colors hover:text-emerald-600">Cobrança</a>
             <a href="#comparativo" className="transition-colors hover:text-emerald-600">Comparativo</a>
             <a href="#" className="transition-colors hover:text-emerald-600">Privacidade</a>
             <a href="#" className="transition-colors hover:text-emerald-600">Termos</a>
           </nav>
-          <p className="text-sm text-zinc-500">© {new Date().getFullYear()} Habita. Todos os direitos reservados.</p>
+          <p className="text-sm text-zinc-500 text-center md:text-left">© {new Date().getFullYear()} Habita. Todos os direitos reservados.</p>
         </div>
       </footer>
     </div>
